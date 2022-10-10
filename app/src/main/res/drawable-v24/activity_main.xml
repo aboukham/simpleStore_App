@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="252dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:src="@drawable/walmart_logo2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Sign in to your account"
+        android:layout_marginTop="160dp"
+        android:textSize="30sp"
+        />
+
+    <RelativeLayout
+        android:layout_width="380dp"
+        android:layout_height="450dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="220dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email Address (required)"
+            android:layout_marginLeft="40dp"
+            android:textSize="16sp"
+            android:layout_marginTop="20dp"
+            ></TextView>
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="40dp"
+            android:layout_centerHorizontal="true"
+            ></EditText>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Password (required)"
+            android:layout_marginLeft="40dp"
+            android:textSize="16sp"
+            android:layout_marginTop="100dp"
+            ></TextView>
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="120dp"
+            android:layout_centerHorizontal="true"></EditText>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="200dp"
+            android:text="Forgot password?"
+            android:textSize="16sp"
+            android:autoLink="all"
+            android:clickable="true"
+            android:textColor="@android:color/holo_blue_dark"
+            android:layout_marginTop="160dp"
+            ></TextView>
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="270dp"
+            android:layout_centerHorizontal="true"
+            android:backgroundTint="@android:color/holo_blue_dark"
+            android:text="Sign in"></Button>
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Don't have an account?"
+            android:textSize="16sp"
+            android:layout_marginTop="330dp"
+            android:textAlignment="center"
+            ></TextView>
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="370dp"
+            android:layout_centerHorizontal="true"
+            android:backgroundTint="@color/white"
+            android:textColor="@android:color/holo_blue_dark"
+            android:text="Create a new account"></Button>
+
+    </RelativeLayout>
+
+</RelativeLayout>
